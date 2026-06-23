@@ -25,7 +25,7 @@
     --d_che: #b84000;
     --m_kna:     #09000a;
     --k_fkep:   #ffffff;
-    --j_bll:   #ffffff;
+    --j_bll:   #0c0c0c;
     --j_jidml: #e0a000;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -51,7 +51,7 @@ ul,ol{padding-left:1.4em;margin-bottom:1em}
 .l_bpkeg{padding:40px 0}
 
 .h_ome{
-    background:linear-gradient(225deg, #09000a 0.000%, #140016 20.000%, #2a2c2d 40.000%, #476a48 60.000%, #649e64 80.000%, #7bc67a 100.000%);
+    background:linear-gradient(225deg, #e0a000 0.000%, #140016 20.000%, #2a2c2d 40.000%, #476a48 60.000%, #649e64 80.000%, #7bc67a 100.000%);
     display:flex;align-items:center;justify-content:space-between;
     padding:12px 20px;position:static;top:0;z-index:1000;
 }
@@ -64,7 +64,7 @@ ul,ol{padding-left:1.4em;margin-bottom:1em}
 .c_ojih.p_nfgfc{
     display:none;
     flex-direction: column;
-    background: #09000a;
+    background: linear-gradient(225deg, #e0a000 0.000%, #140016 20.000%, #2a2c2d 40.000%, #476a48 60.000%, #649e64 80.000%, #7bc67a 100.000%);
     padding: 10px 20px;
     position: absolute;
     list-style: none;
@@ -75,7 +75,7 @@ ul,ol{padding-left:1.4em;margin-bottom:1em}
 .c_ojih.p_nfgfc a{color:#fff;padding:10px 0;display:block;border-bottom:1px solid rgba(255,255,255,.15)}
 
 .o_haiim{
-    background:linear-gradient(225deg, #09000a 0.000%, #140016 20.000%, #2a2c2d 40.000%, #476a48 60.000%, #649e64 80.000%, #7bc67a 100.000%);
+    background:linear-gradient(225deg, #e0a000 0.000%, #140016 20.000%, #2a2c2d 40.000%, #476a48 60.000%, #649e64 80.000%, #7bc67a 100.000%);
     position:static;top:0;z-index:1000;
 }
 .o_haiim .n_pkfm{
@@ -83,7 +83,7 @@ ul,ol{padding-left:1.4em;margin-bottom:1em}
     padding-top:12px;padding-bottom:12px;
 }
 .g_cnj img{max-height:50px}
-.c_ojih{display:flex;gap:28px;list-style:none;align-items:center}
+.c_ojih{display:flex;gap:20px;list-style:none;align-items:center;margin:0;padding:0}
 .c_ojih a{color:var(--j_bll);font-weight:500;font-size:.9em;white-space:nowrap}
 .c_ojih a:hover{opacity:.75}
 .f_nda img{width:28px;height:auto;border-radius:2px;margin-left:12px}
@@ -122,6 +122,7 @@ ul,ol{padding-left:1.4em;margin-bottom:1em}
     right: 0;
     background:linear-gradient(135deg,#e0a000 0%,#b84000 100%);
     padding: 2px;}
+.l_adf{display:flex;align-items:center;justify-content:center}
 .l_adf img{max-height:90px;max-width:90px;object-fit:contain;filter:brightness(1.15)}
 .k_jbkdi{font-size:.85em;font-weight:700;color:;    display: flex;
     flex-direction: column;justify-content:center}
@@ -296,6 +297,30 @@ ul,ol{padding-left:1.4em;margin-bottom:1em}
 .k_kib{font-size:.95em;line-height:1.75}
 .k_kib h2{color:var(--o_fdpo)}
 .k_kib a{color:var(--j_bll)}
+.k_kib.l_hfo{display:flex;gap:30px;align-items:flex-start;flex-wrap:wrap}
+.a_kfbc{width:70%}
+.k_jff{width:calc(30% - 30px);position:sticky;top:20px;background:var(--m_kna);padding:20px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.05);border:1px solid var(--j_jidml)}
+.l_ladjh{display:flex;justify-content:space-between;align-items:center;cursor:pointer;margin-bottom:15px;padding-bottom:10px;border-bottom:1px solid #eee}
+.o_ebk{font-weight:700;font-size:1.1em;margin:0;color:var(--k_fkep)}
+.l_bppj{transition:transform .3s;font-size:.8em;color:var(--k_fkep)}
+.k_jff.o_nip .l_bppj{transform:rotate(-90deg)}
+.k_pgg{list-style:none;padding:0;margin:0;opacity:1;max-height:1000px;transition:all .3s ease-in-out;overflow:hidden}
+.k_jff.o_nip .k_pgg{opacity:0;max-height:0;margin:0}
+.k_pgg li{margin-bottom:8px}
+.k_pgg li:last-child{margin-bottom:0}
+.k_pgg a{text-decoration:none;color:var(--k_fkep);font-size:.75em;transition:.2s;display:block;opacity:.8}
+.k_pgg a:hover{transform:scale(1.05);opacity:1;padding-left:5px}
+.o_olpaj{display:flex;width:100%;overflow-x:auto;gap:12px;padding:10px 0;margin-bottom:20px;list-style:none;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:#bbb transparent}
+.o_olpaj::-webkit-scrollbar{height:4px;background:transparent}
+.o_olpaj::-webkit-scrollbar-thumb{background:#bbb;border-radius:4px}
+.h_mjn{white-space:nowrap;flex-shrink:0}
+.h_mjn a{display:block;border:1px dashed var(--j_jidml);padding:6px 14px;border-radius:10px;text-decoration:none;color:var(--k_fkep);font-size:.85em;background:#2a2c2d;transition:all .2s ease}
+.h_mjn a:hover{transform:scale(1.03)}
+@media(max-width:991px){
+    .k_kib.l_hfo{flex-direction:column}
+    .a_kfbc{width:100%;order:2}
+    .k_jff{width:100%;position:static;margin-bottom:30px;order:1}
+}
 .d_cijf{
     display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin:24px 0;
 }
@@ -1135,7 +1160,7 @@ footer p{
                     </div>
                                 <div>
                                             <strong>Ctibor Kadlec</strong>
-                                                            <span>Posledná aktualizácia: 22 června 2026</span>
+                                                            <span>Posledná aktualizácia: 23 června 2026</span>
                                     </div>
             </div>
                                                 <a href="#b_ejggn" class="h_ddn">
@@ -1296,7 +1321,7 @@ footer p{
         <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="e_ogo">
-                                <a href="/jackpot645/astromania/"
+                                <a href="/mega392/astromania/"
                class="h_ddn"
                style="--shimmer-delay:0.45s"
                target="_blank" rel="nofollow noopener">
@@ -1331,7 +1356,7 @@ footer p{
         <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="e_ogo">
-                                <a href="/slots914/slot7/"
+                                <a href="/jackpot645/slot7/"
                class="h_ddn"
                style="--shimmer-delay:0.9s"
                target="_blank" rel="nofollow noopener">
@@ -1366,7 +1391,7 @@ footer p{
         <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="e_ogo">
-                                <a href="/bonus809/betscore/"
+                                <a href="/bet332/betscore/"
                class="h_ddn"
                style="--shimmer-delay:1.35s"
                target="_blank" rel="nofollow noopener">
@@ -1375,6 +1400,76 @@ footer p{
 </tr>
                                 <tr class="g_keeke" >
     <td class="b_iej">5</td>
+
+    <td class="f_gagff">
+        <div class="g_jgph">
+                            <img src="img/19b8717c061bdba4a4dcb4466c5ea0bd.webp" alt="Wildsino">
+                                        <div class="o_nnm">
+                    Wildsino                </div>
+                                </div>
+    </td>
+
+    <td class="h_hci">
+                    <strong>Až 62 500 Kč ve 3 bonusech + 1 Bonus Crab + 300 FS</strong>
+            </td>
+
+    <td class="i_aen">
+                    <ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="font-claude-response-body whitespace-normal break-words pl-2">Rychlé výběry</li>
+<li class="font-claude-response-body whitespace-normal break-words pl-2">Obrovský výběr her</li>
+<li class="font-claude-response-body whitespace-normal break-words pl-2">Denní bonusy</li>
+<li class="font-claude-response-body whitespace-normal break-words pl-2">Bezpečné &amp; licencované</li>
+</ul>
+            </td>
+
+    <td class="c_kdnp">
+        <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
+
+    <td class="e_ogo">
+                                <a href="/slots914/wildsino/"
+               class="h_ddn"
+               style="--shimmer-delay:1.8s"
+               target="_blank" rel="nofollow noopener">
+               Hrát hned            </a>
+            </td>
+</tr>
+                                <tr class="g_keeke" >
+    <td class="b_iej">6</td>
+
+    <td class="f_gagff">
+        <div class="g_jgph">
+                            <img src="img/d6a9699b258a6ae5e441281356272cfb.webp" alt="AlterSpin">
+                                        <div class="o_nnm">
+                    AlterSpin                </div>
+                                </div>
+    </td>
+
+    <td class="h_hci">
+                    <strong>250% do 75 000 Kč + 350 FS + 1 Bonus Crab</strong>
+            </td>
+
+    <td class="i_aen">
+                    <ul>
+<li>Bonus až 75 000 Kč + 350 FS + Bonus Crab</li>
+<li>Tisíce slotů od světových vývojářů</li>
+<li>Jednoduchá registrace během minuty</li>
+<li>Stabilní a bezpečná platforma</li>
+</ul>
+            </td>
+
+    <td class="c_kdnp">
+        <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
+
+    <td class="e_ogo">
+                                <a href="/bonus809/alterspin/"
+               class="h_ddn"
+               style="--shimmer-delay:2.25s"
+               target="_blank" rel="nofollow noopener">
+               Hrát hned            </a>
+            </td>
+</tr>
+                                <tr class="g_keeke" >
+    <td class="b_iej">7</td>
 
     <td class="f_gagff">
         <div class="g_jgph">
@@ -1401,15 +1496,15 @@ footer p{
         <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="e_ogo">
-                                <a href="/lucky920/gransino/"
+                                <a href="/jackpot514/gransino/"
                class="h_ddn"
-               style="--shimmer-delay:1.8s"
+               style="--shimmer-delay:2.7s"
                target="_blank" rel="nofollow noopener">
                Hrát hned            </a>
             </td>
 </tr>
                                 <tr class="g_keeke" >
-    <td class="b_iej">6</td>
+    <td class="b_iej">8</td>
 
     <td class="f_gagff">
         <div class="g_jgph">
@@ -1436,15 +1531,15 @@ footer p{
         <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="e_ogo">
-                                <a href="/play465/spinboss/"
+                                <a href="/lucky920/spinboss/"
                class="h_ddn"
-               style="--shimmer-delay:2.25s"
+               style="--shimmer-delay:3.15s"
                target="_blank" rel="nofollow noopener">
                Hrát hned            </a>
             </td>
 </tr>
                                 <tr class="g_keeke" >
-    <td class="b_iej">7</td>
+    <td class="b_iej">9</td>
 
     <td class="f_gagff">
         <div class="g_jgph">
@@ -1471,15 +1566,15 @@ footer p{
         <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="e_ogo">
-                                <a href="/spin604/lolajack/"
+                                <a href="/play465/lolajack/"
                class="h_ddn"
-               style="--shimmer-delay:2.7s"
+               style="--shimmer-delay:3.6s"
                target="_blank" rel="nofollow noopener">
                Hrát hned            </a>
             </td>
 </tr>
                                 <tr class="g_keeke" >
-    <td class="b_iej">8</td>
+    <td class="b_iej">10</td>
 
     <td class="f_gagff">
         <div class="g_jgph">
@@ -1506,9 +1601,44 @@ footer p{
         <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="e_ogo">
-                                <a href="/royal236/casea/"
+                                <a href="/spin604/casea/"
                class="h_ddn"
-               style="--shimmer-delay:3.15s"
+               style="--shimmer-delay:4.05s"
+               target="_blank" rel="nofollow noopener">
+               Hrát hned            </a>
+            </td>
+</tr>
+                                <tr class="g_keeke" >
+    <td class="b_iej">11</td>
+
+    <td class="f_gagff">
+        <div class="g_jgph">
+                            <img src="img/52d3c8173cbea6d51af521821b755876.webp" alt="KinBet">
+                                        <div class="o_nnm">
+                    KinBet                </div>
+                                </div>
+    </td>
+
+    <td class="h_hci">
+                    <strong>250% do 75 000 Kč + 350 FS + 1 Bonus Crab</strong>
+            </td>
+
+    <td class="i_aen">
+                    <ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Rychlé výběry</li>
+<li class="whitespace-normal break-words pl-2">Široká nabídka her</li>
+<li class="whitespace-normal break-words pl-2">Denní bonusy</li>
+<li class="whitespace-normal break-words pl-2">Bezpečné &amp; licencované</li>
+</ul>
+            </td>
+
+    <td class="c_kdnp">
+        <span class="j_aobj">5/5</span><span class="j_ckmb"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
+
+    <td class="e_ogo">
+                                <a href="/royal385/kinbet/"
+               class="h_ddn"
+               style="--shimmer-delay:4.5s"
                target="_blank" rel="nofollow noopener">
                Hrát hned            </a>
             </td>
@@ -1519,7 +1649,7 @@ footer p{
                 </div>
         
         <span id="k_eah" style="display:block;height:0;overflow:hidden;"></span>
-                <div class="k_kib">
+                        <div class="k_kib">
             <p>Převod <strong>0,01 BTC</strong> na herní účet trvá u krypto-přátelských kasin průměrně dvě až čtyři minuty – zatímco tradiční bankovní převod na stejný účet může čekat až tři pracovní dny. Právě tento rozdíl přesvědčuje stále více českých hráčů, aby si vybrali <strong>mezinárodní online casino</strong> fungující na kryptografické platební infrastruktuře místo klasických možností. Podle dat zveřejněných odborným médiem iGaming Business vzrostl v roce 2024 objem krypto vkladů u evropsky orientovaných online kasin meziročně o přibližně <strong>34 %</strong>, přičemž největší část tohoto nárůstu pohltily trhy střední a východní Evropy.</p>
 <p>Česká republika přitom není v šedé zóně. Ministerstvo financí ČR ve svém metodickém pokynu upřesnilo, že příjmy z kryptoměn podléhají dani z příjmu v okamžiku jejich směny za koruny nebo jinou fiat měnu – samotné hraní v kryptu bez konverze tedy okamžitou daňovou povinnost zpravidla nezpůsobuje. To dává hráčům větší volnost při výběru platební metody, aniž by vstupovali do právně nejasného území. Zahraniční casina s licencí MGA nebo Curacao jsou přístupná z České republiky a nevyžadují od hráče nic jiného než standardní ověření totožnosti.</p>
 <p>V tomto přehledu jsme prověřili deset předních provozovatelů z pohledu krypto plateb, rychlosti výběru, bonusové nabídky a spolehlivosti licencí. Níže najdete pět nejlépe hodnocených zahraničních online kasin pro české hráče:</p>
@@ -1767,7 +1897,7 @@ footer p{
 <p>Z deseti srovnaných provozovatelů vychází nejlépe kombinace <strong>Quickwin</strong> pro čistě krypto-orientované hráče a <strong>Mr Green</strong> pro ty, kteří preferují nejvyšší regulační standard spolu s vysokým limitem výběru <strong>24 000 €</strong> denně. <strong>BigClash</strong> osloví hráče hledající maximální bonusovou hodnotu, zatímco <strong>Betsson</strong> je přirozenou volbou pro ty, kteří stavějí na dlouhodobé reputaci a transparentnosti veřejně obchodované skupiny. <strong>Casea</strong> uzavírá první pětku jako dostupná alternativa pro střednědobé hráče s krypto portfoliem.</p>
 <p>Bez ohledu na to, které z těchto zahraničních online kasin si vyberete, platí jedno pravidlo: přečtěte si podmínky bonusu, ověřte typ licence a nastavte si limity vkladů dříve, než vložíte první korun nebo satoshi. Zodpovědné hraní není slogan – je to konkrétní sada nástrojů, která je u kvalitních provozovatelů dostupná vždy.</p>
         </div>
-        
+                
                 <div class="k_icf">
             <h2>Nejčastější otázky o zahraničních online casinech</h2>                        <div class="j_mfh c_oadd">
                 <h3 class="m_nfd">Jak ověřím platnost licence zahraničního kasina?</h3>
@@ -1849,31 +1979,31 @@ footer p{
             <div class="b_lbni">
                 <ul class="h_nlci">
                                         <li>
+                                                <img src="img/7c4a297bf55fee597aa465d54f08b8fd.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
+                                            </li>
+                                        <li>
+                                                <img src="img/91f9f805f59341a2a47002750f35bb31.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
+                                            </li>
+                                        <li>
+                                                <img src="img/a233ad70caa5c4565bed424eb88d0fb0.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
+                                            </li>
+                                        <li>
+                                                <img src="img/639573a29239396160fa864e05e7909d.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
+                                            </li>
+                                        <li>
+                                                <img src="img/ce3a88e433727385d9befabfe0f66e79.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
+                                            </li>
+                                        <li>
+                                                <img src="img/2125b531540cdb48a14ed056151f4804.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
+                                            </li>
+                                        <li>
                                                 <img src="img/616f3f784bb0090acbbeef6307e7ca6b.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
                                             </li>
                                         <li>
                                                 <img src="img/1456c8d4545af77fe3040258fb243805.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
                                             </li>
                                         <li>
-                                                <img src="img/91f9f805f59341a2a47002750f35bb31.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
-                                            </li>
-                                        <li>
-                                                <img src="img/ce3a88e433727385d9befabfe0f66e79.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
-                                            </li>
-                                        <li>
                                                 <img src="img/353d0401755b8b17b0e8e16aa26aed19.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
-                                            </li>
-                                        <li>
-                                                <img src="img/2125b531540cdb48a14ed056151f4804.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
-                                            </li>
-                                        <li>
-                                                <img src="img/7c4a297bf55fee597aa465d54f08b8fd.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
-                                            </li>
-                                        <li>
-                                                <img src="img/639573a29239396160fa864e05e7909d.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
-                                            </li>
-                                        <li>
-                                                <img src="img/a233ad70caa5c4565bed424eb88d0fb0.svg" alt="Mezinárodní online casino 2026 – 10 nejlepších zahraničních kasin pro české hráče" style="max-height:36px;">
                                             </li>
                                     </ul>
             </div>
@@ -1889,10 +2019,10 @@ footer p{
             <span class="o_chpo">&times;</span>
             <div class="d_glckc">
                 <img src="img/a481eafbfb6a482d66f0dee89395d038.svg" alt="Casino">                <div class="b_gafm">
-                    <p class="p_egal">Až 35000 Kč + FS za první 4 vklady</p>
+                    <p class="p_egal">Až Do 35000 Kč + FS za první 4 vklady</p>
                 </div>
             </div>
-            <a href="/game642/retro-casino/" style="background:linear-gradient(135deg,#e0a000 0%,#b84000 100%) !important;">
+            <a href="/royal924/retro-casino/" style="background:linear-gradient(135deg,#e0a000 0%,#b84000 100%) !important;">
                 Hrát hned            </a>
         </div>
     </div>
